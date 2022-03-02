@@ -1,0 +1,7 @@
+docker build -t app-node-docker-ejemplo .
+
+docker images 
+
+docker run -it  -p 4000:3000  app-node-docker-ejemplo
+
+enn el navegador:  localhost:4000

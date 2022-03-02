@@ -1,0 +1,15 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Prueba de aplicacion usando node en un Contenedor Docker",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Alcides Cádiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.3"
+  }
+}
